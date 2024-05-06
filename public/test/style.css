@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login,
+.chat {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #00000053;
+    width: 100%
+}
+
+.channel-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.channel-list button {
+    display: block;
+    margin-top: 5px;
+}
+
+.messages {
+    height: 380px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.message {
+    padding: 4px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pad60 {
+    padding: 60px;
+    background-color: antiquewhite;
+}
+
+.inputFields {
+    margin: 10px auto;
+    padding: 10px;
+    width: 240px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    margin: 10px auto;
+    padding: 10px;
+    width: 260px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-button {
+    margin: 5px;
+    padding: 6px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.login-signup {
+    cursor: pointer;
+    margin: 0 auto 20px auto;
+}
+
+.chat {
+    width: 100%;
+    border: 1px solid #999;
+    margin: 0 20px
+}
+
+.textArea {
+    width: 100%;
+    padding: 6px;
+}
+
+.sendBtn {
+    padding: 6px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.profile {
+    cursor: pointer;
+    justify-content: start;
+    padding: 10px;
+}

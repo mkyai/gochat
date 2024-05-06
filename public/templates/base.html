@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    {{ block "head" . }}{{ end }}
+</head>
+
+<body>
+    {{ block "header" . }}
+    <header>
+        <h1>Website Header</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    {{ end }}
+
+    <main>
+        {{ block "content" . }}{{ end }}
+    </main>
+
+    {{ block "footer" . }}
+    <footer>
+        <p>Copyright © Your Website 2023</p>
+    </footer>
+    {{ end }}
+</body>
+
+</html>
